@@ -1,0 +1,153 @@
+{
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer"
+    },
+    "name": {
+      "type": "string"
+    },
+    "filename": {
+      "type": "string"
+    },
+    "bubbleColor": {
+      "type": "string",
+      "pattern": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$"
+    },
+    "canvasSize": {
+      "type": "object",
+      "properties": {
+        "width": {
+          "type": "integer"
+        },
+        "height": {
+          "type": "integer"
+        }
+      },
+      "required": ["width", "height"]
+    },
+    "printAreas": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer"
+          },
+          "name": {
+            "type": "string"
+          },
+          "image": {
+            "type": "object",
+            "properties": {
+              "src": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "scale": {
+                "type": "number"
+              },
+              "offset": {
+                "type": "object",
+                "properties": {
+                  "x": {
+                    "type": ["number", "null"]
+                  },
+                  "y": {
+                    "type": ["number", "null"]
+                  }
+                }
+              },
+              "width": {
+                "type": "number"
+              },
+              "height": {
+                "type": "number"
+              }
+            },
+            "required": ["src", "name", "scale", "width", "height"]
+          },
+          "texts": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "size": {
+                  "type": "integer"
+                },
+                "color": {
+                  "type": "string",
+                  "pattern": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$"
+                },
+                "font": {
+                  "type": "string"
+                },
+                "content": {
+                  "type": "string"
+                },
+                "position": {
+                  "type": "object",
+                  "properties": {
+                    "x": {
+                      "type": "integer"
+                    },
+                    "y": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": ["x", "y"]
+                },
+                "bold": {
+                  "type": "boolean"
+                },
+                "italic": {
+                  "type": "boolean"
+                },
+                "underline": {
+                  "type": "boolean"
+                },
+                "align": {
+                  "type": "string",
+                  "enum": ["left", "center", "right"]
+                },
+                "stroke": {
+                  "type": "object",
+                  "properties": {
+                    "color": {
+                      "type": "string",
+                      "pattern": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$"
+                    },
+                    "width": {
+                      "type": "number"
+                    }
+                  },
+                  "required": ["color", "width"]
+                }
+              },
+              "required": [
+                "id",
+                "size",
+                "color",
+                "font",
+                "content",
+                "position",
+                "bold",
+                "italic",
+                "underline",
+                "align",
+                "stroke"
+              ]
+            }
+          }
+        },
+        "required": ["id", "name", "image", "texts"]
+      }
+    }
+  },
+  "required": ["id", "name", "filename", "bubbleColor", "canvasSize", "printAreas"]
+}

@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".", // This must be specified if "paths" is.
+      "paths": {
+        "@/*": ["./src/*"],
+        "components/*": ["./src/components/*"],
+        "const/*": ["./src/const/*"],
+        "lib/*": ["./src/lib/*"],
+        "context/*": ["./src/context/*"]
+      }
+    },
+    // Include these lines if you're using TypeScript
+    "include": ["src/**/*"],
+    "exclude": ["node_modules"]
+}

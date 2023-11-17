@@ -1,0 +1,110 @@
+{
+  "pl": {
+    "title": "Twój projekt",
+    "tabs": {
+      "bubbleSection": {
+        "title": "Bombka",
+        "bubbles": "Bombki",
+        "printArea": "Obszar zadruku",
+        "bubbleColor": "Kolor bombki"
+      },
+      "textSection": {
+        "empty": "Dodaj tekst by zobaczyć opcje",
+        "title": "Tekst",
+        "textsList": "Lista tekstów",
+        "selected": "wybrano:",
+        "text": "Tekst",
+        "fontDetails": "Szczegóły czcionki",
+        "fontSize": "Rozmiar czcionki",
+        "strokeWidth": "Szerokość obramowania",
+        "add": "Dodaj",
+        "remove": "Usuń",
+        "edit": "Edytuj",
+        "options": {
+          "up": "Góra",
+          "down": "Dół",
+          "left": "Lewo",
+          "right": "Prawo",
+          "reset": "Reset"
+        }
+      },
+      "imageSection": {
+        "title": "Obraz",
+        "subtitle": "Przesyłanie obrazów",
+        "button": "Dodaj obraz (.jpg)",
+        "options": {
+          "up": "Góra",
+          "down": "Dół",
+          "left": "Lewo",
+          "right": "Prawo",
+          "reset": "Reset"
+        }
+      }
+    },
+    "export": "Eksportuj tekstury jako PNG",
+    "tree": "Widok na choince",
+    "back": "Powrót do edycji",
+    "importProject": "Importuj projekt",
+    "reject": "Zamknij",
+    "canvas": {
+      "front": "Przód",
+      "back": "Tył",
+      "left": "Lewo",
+      "right": "Prawo"
+    }
+  },
+  "en": {
+    "title": "Your design",
+    "tabs": {
+      "bubbleSection": {
+        "title": "Bubble",
+        "bubbles": "Bubbles",
+        "printArea": "Print area",
+        "bubbleColor": "Bubble color"
+      },
+      "textSection": {
+        "empty": "Add text to see options",
+        "title": "Text",
+        "textsList": "Text list",
+        "selected": "selected:",
+        "text": "Text",
+        "fontDetails": "Font details",
+        "fontSize": "Font size",
+        "strokeWidth": "Stroke width",
+        "add": "Add",
+        "remove": "Remove",
+        "edit": "Edit",
+        "options": {
+          "up": "Up",
+          "down": "Down",
+          "left": "Left",
+          "right": "Right",
+          "reset": "Reset"
+        }
+      },
+      "imageSection": {
+        "title": "Image",
+        "subtitle": "Image Upload",
+        "button": "Add image (.jpg)",
+        "options": {
+          "up": "Up",
+          "down": "Down",
+          "left": "Left",
+          "right": "Right",
+          "reset": "Reset"
+        }
+      }
+    },
+    "export": "Export texture as PNG",
+    "tree": "Christmas tree view",
+    "back": "Back to edit",
+    "importProject": "Import project",
+    "reject": "Close",
+    "canvas": {
+      "front": "Front",
+      "back": "Back",
+      "left": "Left",
+      "right": "Right"
+    }
+  }
+}

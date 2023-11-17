@@ -1,0 +1,254 @@
+[
+  {
+    "id": 1,
+    "name": "gwiazdka",
+    "filename": "gwiazdka.obj",
+    "bubbleColor": "#ff0000",
+    "canvasSize": {
+      "width": 1000,
+      "height": 1000
+    },
+    "printAreas": [
+      {
+        "id": 1,
+        "name": "obraz1",
+        "image": {
+          "src": "",
+          "name": "",
+          "scale": 1,
+          "offset": {
+            "x": null,
+            "y": null
+          },
+          "width": 100,
+          "height": 100
+        },
+        "texts": []
+      },
+      {
+        "id": 2,
+        "name": "obraz2",
+        "image": {
+          "src": "",
+          "name": "",
+          "scale": 1,
+          "offset": {
+            "x": null,
+            "y": null
+          },
+          "width": 100,
+          "height": 100
+        },
+        "texts": []
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "smartfon",
+    "filename": "smartfon.obj",
+    "bubbleColor": "#ff0000",
+    "canvasSize": {
+      "width": 1000,
+      "height": 1000
+    },
+    "printAreas": [
+      {
+        "id": 1,
+        "name": "obraz1",
+        "image": {
+          "src": "",
+          "name": "",
+          "scale": 1,
+          "offset": {
+            "x": null,
+            "y": null
+          },
+          "width": 100,
+          "height": 100
+        },
+        "texts": []
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "kostka",
+    "filename": "kostka.obj",
+    "bubbleColor": "#ff0000",
+    "canvasSize": {
+      "width": 1000,
+      "height": 1500
+    },
+    "printAreas": [
+      {
+        "id": 1,
+        "name": "obraz1",
+        "image": {
+          "src": "",
+          "name": "",
+          "scale": 1,
+          "offset": {
+            "x": null,
+            "y": null
+          },
+          "width": 100,
+          "height": 100
+        },
+        "texts": []
+      },
+      {
+        "id": 2,
+        "name": "obraz2",
+        "image": {
+          "src": "",
+          "name": "",
+          "scale": 1,
+          "offset": {
+            "x": null,
+            "y": null
+          },
+          "width": 100,
+          "height": 100
+        },
+        "texts": []
+      },
+      {
+        "id": 3,
+        "name": "obraz3",
+        "image": {
+          "src": "",
+          "name": "",
+          "scale": 1,
+          "offset": {
+            "x": null,
+            "y": null
+          },
+          "width": 100,
+          "height": 100
+        },
+        "texts": []
+      },
+      {
+        "id": 4,
+        "name": "obraz4",
+        "image": {
+          "src": "",
+          "name": "",
+          "scale": 1,
+          "offset": {
+            "x": null,
+            "y": null
+          },
+          "width": 100,
+          "height": 100
+        },
+        "texts": []
+      },
+      {
+        "id": 5,
+        "name": "obraz5",
+        "image": {
+          "src": "",
+          "name": "",
+          "scale": 1,
+          "offset": {
+            "x": null,
+            "y": null
+          },
+          "width": 100,
+          "height": 100
+        },
+        "texts": []
+      },
+      {
+        "id": 6,
+        "name": "obraz6",
+        "image": {
+          "src": "",
+          "name": "",
+          "scale": 1,
+          "offset": {
+            "x": null,
+            "y": null
+          },
+          "width": 100,
+          "height": 100
+        },
+        "texts": []
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "pocztówka",
+    "filename": "pocztówka.obj",
+    "bubbleColor": "#ff0000",
+    "canvasSize": {
+      "width": 1000,
+      "height": 1000
+    },
+    "printAreas": [
+      {
+        "id": 1,
+        "name": "obraz1",
+        "image": {
+          "src": "",
+          "name": "",
+          "scale": 1,
+          "offset": {
+            "x": null,
+            "y": null
+          },
+          "width": 100,
+          "height": 100
+        },
+        "texts": []
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "karta kredytowa",
+    "filename": "karta_kredytowa.obj",
+    "bubbleColor": "#ff0000",
+    "canvasSize": {
+      "width": 1000,
+      "height": 1000
+    },
+    "printAreas": [
+      {
+        "id": 1,
+        "name": "obraz1",
+        "image": {
+          "src": "",
+          "name": "",
+          "scale": 1,
+          "offset": {
+            "x": null,
+            "y": null
+          },
+          "width": 100,
+          "height": 100
+        },
+        "texts": []
+      },
+      {
+        "id": 2,
+        "name": "obraz2",
+        "image": {
+          "src": "",
+          "name": "",
+          "scale": 1,
+          "offset": {
+            "x": null,
+            "y": null
+          },
+          "width": 100,
+          "height": 100
+        },
+        "texts": []
+      }
+    ]
+  }
+]

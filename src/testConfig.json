@@ -1,0 +1,43 @@
+[
+  {
+    "id": 1,
+    "name": "telefon",
+    "filename": "telefon.obj",
+    "bubbleColor": "#ff0000",
+    "canvasSize": {
+      "width": 1000,
+      "height": 1000
+    },
+    "printAreas": [
+      {
+        "id": 1,
+        "areaName": "front",
+        "text": {
+          "size": 10,
+          "color": "#ff0000",
+          "font": "Open Sans",
+          "content": "lorem ipsum",
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "align": "left"
+        },
+        "image": {
+          "src": "image.jpg",
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1
+          }
+        }
+      }
+    ]
+  }
+]
